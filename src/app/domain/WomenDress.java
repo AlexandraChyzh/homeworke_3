@@ -1,9 +1,10 @@
 package app.domain;
 
+import java.io.Serializable;
 import java.math.BigDecimal;
 import java.util.Objects;
 
-public class WomenDress {
+public class WomenDress implements Serializable {
 
     private  Long id;
     private String title;

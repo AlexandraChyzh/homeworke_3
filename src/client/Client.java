@@ -11,7 +11,7 @@ public class Client {
 
         WomenDressController controller = context.getBean(WomenDressController.class);
 
-        WomenDress womenDress = controller.getById(1L);
+        WomenDress womenDress = controller.getById(4L);
         System.out.println(womenDress);
     }
 }
